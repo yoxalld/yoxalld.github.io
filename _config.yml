@@ -1,3 +1,18 @@
-remote_theme: moonwalk
 title: Dustin Yoxall
-description: Portfolio of Projects
+description: Developer | IT Professional
+baseurl: yoxalld.github.io
+
+remote-theme: hacked-jekyll
+
+exclude:
+  - LICENSE
+  - README.md
+  - vendor/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  sourcemap: never
+  
