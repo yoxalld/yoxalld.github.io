@@ -1,0 +1,6 @@
+# This file contains the navigation structure for the website.
+# It is used to generate the navigation menu in the layout.
+- title: Home
+  url: /
+- title: Projects
+  url: /projects/
