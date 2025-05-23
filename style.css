@@ -1,0 +1,74 @@
+body {
+  background: #181825;
+  color: #f8f8f2;
+  font-family: 'Fira Mono', 'Consolas', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #232136;
+  padding: 1rem 0;
+  box-shadow: 0 2px 8px #0008;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  color: #ff6ac1;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+nav a:hover {
+  color: #6ae3ff;
+}
+
+main {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #232136;
+  border-radius: 16px;
+  box-shadow: 0 4px 32px #000a;
+}
+
+.hero h1 {
+  color: #6ae3ff;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.hero h2 {
+  color: #ff6ac1;
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+.hero p {
+  color: #f8f8f2;
+  font-size: 1.1rem;
+}
+
+.projects h1, .project-detail h1 {
+  color: #6ae3ff;
+}
+.projects ul {
+  padding-left: 1.2rem;
+}
+.projects a {
+  color: #ff6ac1;
+  text-decoration: underline;
+}
+.projects a:hover {
+  color: #6ae3ff;
+}
+
+.project-detail p {
+  color: #f8f8f2;
+  font-size: 1.1rem;
+}
